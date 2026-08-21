@@ -1,0 +1,2 @@
+const stages=["Loading webpage","Extracting page structure","Simplifying DOM","Building safe component tree","Checking visual fidelity","Rendering preview"];
+export function ProcessingStatus({active}:{active:number}) { return <div className="processing" role="status" aria-live="polite">{stages.map((stage,i)=><div className={`stage ${i<active?"done":i===active?"active":""}`} key={stage}><span>{i<active?"✓":String(i+1).padStart(2,"0")}</span><p>{stage}</p></div>)}</div>; }
