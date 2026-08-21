@@ -8,7 +8,15 @@ Run the app and select **Try the interactive demo**. Sample mode walks through t
 
 ## Screenshots
 
-The repository ships demo data rather than checked-in binary screenshots. The home screen and comparison workspace are available immediately in sample mode; live analysis captures the target page at 1440 × 900.
+### Analyze any public webpage
+
+![AI Page Rebuilder home screen](public/screenshots/home.png)
+
+### Compare the source with editable React DOM
+
+![AI Page Rebuilder comparison workspace](public/screenshots/workspace.png)
+
+The built-in sample mode opens this complete comparison without visiting an external site or requiring an API key. Live analysis captures the target at 1440 × 900 and builds a sanitized, manipulable DOM alongside its visual reference.
 
 ## Why I Built This
 
