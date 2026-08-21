@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AI Page Rebuilder — From URL to React",
+  title: "AI Page Rebuilder | Turn Webpages into Safe React",
   description: "Analyze public webpages and reconstruct their visual structure as safe, reusable React components.",
 };
 
